@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sweet – Suivi du diabète, simple et humain</title>
+        <link rel="icon" href="assets/DashboardIllustrationLogo.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/landing.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header__logo">
+                <img src="assets/logoHeader.png" alt="Logo Sweet">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-link">
+                    <li><a href="#features">Fonctionnalités</a></li>
+                    <li><a href="#about">Qui sommes-nous ?</a></li>
+                    <li><a href="#reviews">Avis</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#" class="btn btn--primary">Essayer Sweet gratuitement</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <img src="assets/heroSectionDesktop.png" alt="Mascotte Sweet souriante">
+            </section>
+
+            <section class="intro">
+                <div class="intro__container">
+                    <p>
+                        En France, plus de 4 millions de personnes vivent avec le diabète.
+                        <strong>Sweet</strong> est née d’un constat simple : derrière chaque chiffre, il y a une personne qui lutte chaque jour pour garder l’équilibre.
+                        Plus qu’un outil de suivi, Sweet redonne du contrôle et de la compréhension à ceux qui vivent avec la maladie,
+                        en transformant des données en une vision globale de leur santé :<br>
+                        simple, accessible, <span class="highlight">humain</span>.
+                    </p>
+                </div>
+            </section>
+
+            <section class="features" id="features">
+                <div class="features__container">
+                    <h2 class="features__title">Fonctionnalités</h2>
+                    <div class="features__image">
+                        <img id="feature-image" src="assets/FonctionnaliteDashboard.png" alt="Aperçu du tableau de bord Sweet" />
+                    </div>
+                    <div class="features__tags">
+                        <button
+                            class="tag tag--active"
+                            data-image="assets/FonctionnaliteDashboard.png"
+                            data-text="Ton quotidien en un regard : toutes tes données du jour, simplement.">Dashboard de suivi</button>
+                        <button
+                            class="tag"
+                            data-image="assets/fonctionnaliteProfil.png"
+                            data-text="Ton espace personnel : ajuste tes infos, garde le contrôle sur tes données.">Profil</button>
+                        <button
+                            class="tag"
+                            data-image="assets/FonctionnaliteCalendar.png" data-text="Ne perds plus le fil : retrouve, modifie, ajoute tes données, et rendez-vous au bon moment.">Calendrier</button>
+                        <button
+                            class="tag"
+                            data-image="assets/FonctionnaliteProfessionnelsDeSante.png"
+                            data-text="Tes médecins, note tes échanges, suis l’évolution de tes rendez-vous, tout à portée de main.">Professionnels de santé</button>
+                        <button
+                            class="tag"
+                            data-image="assets/fonctionnaliteForum.png"
+                            data-text="Discute, partage et trouve des idées concrètes pour ton quotidien.">Forum</button>
+                        <button
+                            class="tag"
+                            data-image="assets/FonctionnaliteArticles.png"
+                            data-text="Des infos claires et utiles pour mieux vivre avec ton diabète.">Articles</button>
+                    </div>
+                    <p id="feature-description" class="features__description">
+                        Ton quotidien en un regard : toutes tes données du jour, simplement.
+                    </p>
+                </div>
+            </section>
+
+            <section class="daily">
+                <div class="daily__container">
+                    <div class="daily__text">
+                        <h2>Suivre ton quotidien</h2>
+                        <p>Suis tes mesures au quotidien et repère facilement les variations importantes.</p>
+                    </div>
+                    <div class="daily__carousel">
+                        <div class="carousel__track">
+                            <img src="assets/FonctionnaliteGlycemie.png" alt="Suivi glycémie Sweet" class="carousel__item" />
+                            <img src="assets/FonctionnaliteActiviteSportive.png" alt="Suivi poids Sweet" class="carousel__item" />
+                            <img src="assets/FonctionnaliteHumeur.png" alt="Suivi activité Sweet" class="carousel__item" />
+                            <img src="assets/FonctionnaliteMedication.png" alt="Suivi humeur Sweet" class="carousel__item" />
+                            <img src="assets/FonctionnalitePoids.png" alt="Suivi glycémie Sweet" class="carousel__item" />
+                            <img src="assets/FonctionnaliteRepas.png" alt="Suivi glycémie Sweet" class="carousel__item" />
+                        </div>
+                        <div class="carousel__dots">
+                            <span class="dot dot--active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="availability">
+                <div class="availability__container">
+                    <div class="availability__text">
+                        <h2>Disponible en version Desktop et Smartphone.</h2>
+                        <a href="#" class="btn btn--white">
+                            Découvrez Sweet gratuitement
+                            <span class="btn__icon">➜</span>
+                        </a>
+                        <div class="availability__stores">
+                            <p>Bientôt disponible sur :</p>
+                            <div class="store__icons">
+                                <img src="assets/DisponibleApp.png" alt="Google Play et App Store" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="availability__visuals">
+                        <img src="assets/DisponibleMockup.png" alt="Version desktop de Sweet" class="visual--desktop" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="about__container">
+                    <h3 class="about__subtitle">Qui sommes-nous ?</h3>
+                    <h2 class="about__title">Une histoire personnelle devenue projet.</h2>
+                    <p class="about__text">
+                        Derrière Sweet, il y a une histoire, celle de ma sœur et de moi. Quand le diabète est entré dans nos vies,
+                        j’ai voulu créer un outil qui l’aide à mieux comprendre son quotidien sans se sentir submergée.
+                        C’est ainsi qu’est né Sweet : une application simple, bienveillante et pensée pour les vraies vies,
+                        où la technologie sert avant tout l’humain.<br /><br />
+                        Je suis Claire, développeuse web passionnée par les projets qui allient technologie et sens.
+                        J’aime créer des expériences simples, utiles et profondément humaines.
+                    </p>
+                    <div class="about__icons">
+                        <a class="icon-circle" href="https://www.linkedin.com/in/claire-castan">
+                            <img src="assets/AProposIconLinkedin.png" alt="Icône décorative 1" />
+                        </a>
+                        <a class="icon-circle" href="https://github.com/Helvlaska">
+                            <img src="assets/AProposIconGithub.png" alt="Icône décorative 2" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="security">
+                <div class="security__container">
+                    <div class="security__image">
+                        <img src="assets/Securite.png" alt="Illustration sécurité Sweet" />
+                    </div>
+                    <div class="security__content">
+                        <h2 class="security__title">Vos données sont en sécurité avec Sweet.</h2>
+                        <p class="security__text">
+                            En France, vos informations de santé vous appartiennent.
+                            Nous ne les vendrons jamais, ne les partagerons jamais,
+                            et elles resteront protégées par les règles strictes du RGPD.
+                            <br /><br />
+                            Sweet veille sur votre confidentialité.
+                        </p>
+                        <a href="#" class="security__link">Lire nos règles de confidentialité</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews" id="reviews">
+                <div class="reviews__container">
+                    <img
+                        src="assets/AvisCitation.png"
+                        alt="Guillemets décoratifs"
+                        class="reviews__quote-fixed"
+                    />
+                    <div class="reviews__carousel">
+                        <div class="review active">
+                            <div class="review__content">
+                                <blockquote class="review__text">
+                                    Depuis que j’utilise Sweet, je me sens enfin actrice de mon suivi.
+                                    Les graphiques simples m’aident à comprendre mes variations sans stress.
+                                </blockquote>
+                                <p class="review__author">Sophie, 42 ans</p>
+                            </div>
+                            <div class="review__portrait">
+                                <img src="assets/AvisSophie.png" alt="Portrait de Sophie" />
+                            </div>
+                        </div>
+                        <div class="review">
+                            <div class="review__content">
+                                <blockquote class="review__text">
+                                    Sweet m’aide à mieux préparer mes rendez-vous médicaux et à garder le fil entre deux consultations. C’est devenu mon petit rituel du matin.
+                                </blockquote>
+                                <p class="review__author">Élise, 61 ans</p>
+                            </div>
+                            <div class="review__portrait">
+                                <img src="assets/AvisElise.png" alt="Portrait de Karim" />
+                            </div>
+                        </div>
+                        <div class="review">
+                            <div class="review__content">
+                                <blockquote class="review__text">
+                                    J’aime la clarté du tableau de bord et le fait de pouvoir tout noter au même endroit. C’est rassurant et facile à utiliser au quotidien.
+                                </blockquote>
+                                <p class="review__author">Karim, 35 ans</p>
+                            </div>
+                            <div class="review__portrait">
+                                <img src="assets/AvisKarim.png" alt="Portrait de Lucie" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__dots">
+                        <span class="dot dot--active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer" id="contact">
+                <div class="footer__container">
+                    <div class="footer__contact">
+                        <h2>Vous avez un projet<br />en tête, scannez, et contactez-moi.</h2>
+                        <div class="footer__icons">
+                            <a href="https://github.com/Helvlaska" class="footer__icon">
+                                <img src="assets/FooterIconGithub.png" alt="Icône GitHub" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/claire-castan" target="_blank" class="footer__icon">
+                                <img src="assets/FooterIconLinkedin.png" alt="Icône LinkedIn" />
+                            </a>
+                        </div>
+                        <div class="footer__qrcode">
+                            <img src="assets/QRcode.png" alt="QR code vers le profil" />
+                        </div>
+                    </div>
+                    <nav class="footer__nav">
+                        <ul>
+                            <li><a href="#home">DESCRIPTION</a></li>
+                            <li><a href="#features">FONCTIONNALITÉS</a></li>
+                            <li><a href="#about">QUI SOMMES-NOUS ?</a></li>
+                            <li><a href="#reviews">AVIS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer__cta">
+                        <a href="#" class="btn btn--white">
+                            Découvrez Sweet gratuitement
+                            <span class="btn__icon">➜</span>
+                        </a>
+                        <div class="footer__stores">
+                            <p>Bientôt disponible sur :</p>
+                            <div class="store__icons">
+                                <img src="assets/DisponibleApp.png" alt="Google Play et App Store" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        <script src="scripts/features.js"></script>
+        <script src="scripts/daily.js"></script>
+        <script src="scripts/reviews.js"></script>
+    </body>
+</html>
