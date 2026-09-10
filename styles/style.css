@@ -641,6 +641,7 @@ body {
   right: 16px;
   height: 5px;
   background: #512C2E;
+  border-radius: 30px;
   z-index: 0;
 }
 
@@ -695,13 +696,11 @@ body {
 }
 
 .timeline__item--done .timeline__card {
-  border-color: #6E7645;
-  background: #f8fdf4;
+  background: #C8D5B9;
 }
 
 .timeline__item--in-progress .timeline__card {
-  border-color: var(--color-primary);
-  background: #f0f5ff;
+  background: #DCE4FF;
 }
 
 /* Survol */
