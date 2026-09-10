@@ -40,8 +40,8 @@ playBtn.addEventListener('click', togglePlay);
 function toggleVolume() {
     video.muted = !video.muted;
     volumeIcon.src = video.muted
-        ? 'assets/icons/hero/icon-volume-ON.png'
-        : 'assets/icons/hero/icon-volume-OFF.png';
+        ? 'assets/icons/hero/icon-volume-OFF.png'
+        : 'assets/icons/hero/icon-volume-ON.png';
 }
 
 volumeBtn.addEventListener('click', toggleVolume);
